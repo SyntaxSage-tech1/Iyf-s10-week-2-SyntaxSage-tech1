@@ -25,8 +25,9 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    background: var(--color-bg);
-    color: var(--color-text);
+    background-color: #f59e0b;
+    background-image: -webkit-repeating-linear-gradient();
+   
 }
 
 /* NAVBAR */
@@ -35,7 +36,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background: white;
+    background: rgb(223, 154, 154);
 }
 
 nav {
@@ -45,12 +46,17 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--color-text);
+    color: rgb(153, 209, 231);
     font-weight: bold;
 }
 
 nav a:hover {
     color: var(--color-primary);
+}
+
+h3 {
+    margin-top: 20px;
+    color: rgb(112, 63, 245);
 }
 
 /* HERO */
@@ -74,6 +80,7 @@ section {
 .projects {
     display: grid;
     grid-template-columns: 1fr;
+    background-color: aqua;
     gap: 20px;
 }
 
@@ -82,7 +89,7 @@ section {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background: white;
+    background: rgb(179, 226, 102);
     transition: all 0.3s ease;
 }
 
@@ -105,7 +112,7 @@ button {
     padding: 10px 15px;
     border: none;
     background: var(--color-primary);
-    color: white;
+    color: rgb(245, 222, 222);
     cursor: pointer;
     transition: 0.3s;
 }
